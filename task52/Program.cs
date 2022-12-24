@@ -18,7 +18,7 @@ int[] size = Console.ReadLine().Split(" ").Select(x => int.Parse(x)).ToArray();
 int[,] matrix = new int[size[0], size[1]];
 InputMatrix(matrix);
 Console.WriteLine();
-Console.Write ("Среднее арифметическое каждого столбца: ");
+Console.WriteLine ("Среднее арифметическое каждого столбца: ");
 for (int j = 0; j < matrix.GetLength(1); j++)
     {
         double sum = 0;
